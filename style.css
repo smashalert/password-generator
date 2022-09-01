@@ -1,0 +1,166 @@
+
+body {
+    margin: 0px;
+    font-family: 'Karla', sans-serif;
+    background: #1C1C1C;
+}
+
+.titleAlign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px;
+}
+
+#titleText {
+    margin: 0px;
+    background: #1F2937;
+    padding: 60px;
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+#titleOne {
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+    margin: 0;
+}
+
+#titleTwo {
+    font-weight: 800;
+    font-size: 40px;
+    color: #4ADF86;
+    margin: 0px;
+}
+
+#titleThree {
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 18px;
+}
+
+#passBtn {
+    background: #10B981;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 40px;   
+}
+
+#passBtn:active {
+    background: #0c8a60;
+}
+
+.lineCenter {
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#line-el {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    height: 0px;
+    border: 1px solid #2F3E53;
+}
+
+#passAlign {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pass {
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    width: 190px;
+    height: 40px;
+    background: #273549;
+    border-radius: 6px;
+    color: #55F991;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyBtn {
+    background: #10B981;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    width: 50px;
+}
+
+#copyBtn:active {
+    background: #0c8a60;
+}
+
+
+#copyBtn2 {
+    background: #10B981;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    width: 50px;
+}
+
+#copyBtn2:active {
+    background: #0c8a60;
+}
+
+#copiedAlign {
+    display: flex;
+}
+
+#copiedText {
+    color: #55F991;
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    display: flex;
+    justify-content: start;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#copiedText2 {
+    color: #55F991;
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    display: flex;
+    justify-content: start;
+    margin-left: 255px;
+    margin-top: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+#footerText {
+    font-family: 'Inter', sans-serif;
+    color: #9CA3AF;
+    font-weight: lighter;
+    font-size: 14px;
+}
